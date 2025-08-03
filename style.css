@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  color: #0a0a23;
+}
+
+.hero {
+  background: linear-gradient(to right, #0a0a23, #1a1a40);
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 10px;
+  background: #1a1a1a;
+  color: white;
+}
